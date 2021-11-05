@@ -1,0 +1,33 @@
+.header{
+  width: 100%;
+  max-width: 1200px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.img{
+  display: block;
+  height: 65px;
+  width: 65px;
+}
+.drop{
+  display: block;
+}
+.select{
+  display: block;
+  margin-left: 20px;
+}
+.title{
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #4793FF;
+}
