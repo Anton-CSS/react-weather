@@ -7,9 +7,9 @@ import Select, { StylesConfig } from 'react-select';
 
 const Header = () => {
     const options = [
-        { value: 'chocolate', label: 'Chocolate' },
-        { value: 'strawberry', label: 'Strawberry' },
-        { value: 'vanilla', label: 'Vanilla' }
+        { value: 'city-1', label: 'Санкт-Петербург' },
+        { value: 'city-2', label: 'Москва' },
+        { value: 'city-3', label: 'Новгород' }
     ];
 
     const colourStyles = {
@@ -30,7 +30,7 @@ const Header = () => {
             </div>
             <div className={s.wrapper}>
                   <img src={drop} alt="drop" className={s.drop}/>
-                  <Select options={options} className={s.select} styles={colourStyles}/>
+                  <Select defaultValue={options[1]} options={options} className={s.select} styles={colourStyles}/>
             </div>
         </header>
     );

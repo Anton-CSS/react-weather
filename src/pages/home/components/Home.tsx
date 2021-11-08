@@ -1,10 +1,11 @@
 import React from 'react';
 import s from './home.module.scss';
+import ThisDay from "./ThisDay/ThisDay";
 
 const Home = () => {
     return (
         <div className={s.home}>
-            Home
+           <ThisDay/>
         </div>
     );
 };
