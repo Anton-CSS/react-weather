@@ -1,0 +1,32 @@
+@import "../../../../style/variables.scss";
+
+.tabs{
+  display: grid;
+  grid-template: 1fr/ 1fr 1fr 1fr 5fr;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  height: 42px;
+  align-items: center;
+  font-size: 18px;
+  button{
+    display: block;
+    width: 129px;
+    height: 35px;
+    background: #FFFFFF;
+    box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  &__month, &__ten-days{
+    margin-left: 15px;
+  }
+  &__cancel{
+    justify-self: flex-end;
+  }
+  .tabs__week.active, .tabs__month.active, .tabs__ten-days.active{
+    background-color: var(--main-color);
+  }
+}

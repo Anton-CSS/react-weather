@@ -12,8 +12,8 @@ const ThisDay: FC = () => {
                 </div>
                 <Sun />
             </div>
-            <div className="this-day__time"></div>
-            <div className="this-day__city"></div>
+            <div className="this-day__time">Время: 21.54</div>
+            <div className="this-day__city">Город: Москва</div>
         </div>
     );
 };

@@ -10,3 +10,9 @@ body{
   flex-direction: column;
   align-items: center;
 }
+
+*,*:before,*:after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
